@@ -51,11 +51,11 @@ function Dashboard() {
         </div>
 
         {/* Trip Card */}
-        <div className="relative rounded-2xl overflow-hidden bg-gray-800">
+        <div className="flex flex-col w-fit rounded-2xl overflow-hidden bg-gray-800">
           <img
             src="https://images.unsplash.com/photo-1549693578-d683be217e58?auto=format&fit=crop&w=800&q=80"
             alt="Destination"
-            className="w-full h-48 object-cover"
+            className="w-full h-48 object-fill"
           />
           <div className=" bg-black bg-opacity-30 p-4 flex flex-col justify-start">
             {editing ? (
